@@ -1,0 +1,77 @@
+body{
+   background: url(images/bg-pattern-desktop.svg), linear-gradient(hsl(0, 0%, 100%), hsl(0, 100%, 98%));           
+   font-size: 16px;
+}
+
+/*img configuração*/
+
+.position{
+    position: relative;
+    top: -150px;
+    margin-bottom: -150px;
+    padding-right: 0;
+    height: 800px;
+}
+
+/*Letra*/
+
+.color{
+    color: hsl(0, 36%, 70%);
+    line-height: 29px;
+}
+h1{
+    font-size: 90px;
+    line-height: 85px;
+}
+
+/*positions*/
+ 
+.pos{
+    position: relative;
+    left: 20px;
+    width: 75%;
+}
+.espaco{
+  margin-left: 130px;
+}
+.boton{
+    position: relative;
+    bottom: 38px;
+    border-radius: 20px;
+    width: 80px;
+    background: linear-gradient(hsl(0, 80%, 86%),hsl(0, 74%, 74%));
+}
+/*estilos*/
+
+#checagem{
+    border-radius: 20px;
+}
+/*JS CSS*/
+.disabled{
+    display: none;
+}
+.failed{
+    display: block;
+    color: red;
+}
+
+/*media query*/
+
+@media (max-width: 767.98px) {
+    .espaco{
+        margin-left: 10px;
+    }
+    .position{
+        height: 400px;
+        margin-top: 150px;
+        width: 150%;
+    }
+    .pos{
+        width: 100%;
+        text-align: center;
+    }
+    h1{
+        font-size: 60px;
+        line-height: 50px;
+    }
+ }
